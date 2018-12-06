@@ -11,7 +11,7 @@
        <div>
         <asp:Label ID="Label1" runat="server" Font-Size="50" Text="This is the viewit page"></asp:Label>
         <br /><br /><br />
-        <asp:Label ID="lbl2" runat="server" Font-Size="30" Text="AlbumID retrieved from the session variable:  "></asp:Label>
+        <asp:Label ID="lbl2" runat="server" Font-Size="30" Text="Album added to cart:  "></asp:Label>
         <asp:Label ID="lblHcode" runat="server" Font-Size="30" Text="This is the viewit  page"></asp:Label>
     </div>
     </form>

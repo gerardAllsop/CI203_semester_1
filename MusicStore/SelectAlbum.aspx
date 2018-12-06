@@ -17,8 +17,9 @@
                 OnSelectedIndexChanged="ddl_OnSelectedIndexChanged">
             </asp:DropDownList>
             <br />
-            <br />
-            <br />
+            <asp:RadioButtonList ID="rbGenre"  RepeatDirection="Horizontal" runat="server" AutoPostBack="True"
+                OnSelectedIndexChanged="rbChanged"></asp:RadioButtonList>
+           
             <asp:GridView
                 ID="gvAlbums"
                 runat="server"
@@ -33,6 +34,7 @@
                     <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="" />
                 </Columns>
             </asp:GridView>
+            <br />
         </div>
     </form>
 </body>

@@ -40,6 +40,15 @@ namespace MusicStore {
         protected global::System.Web.UI.WebControls.DropDownList ddlArtist;
         
         /// <summary>
+        /// rbGenre control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbGenre;
+        
+        /// <summary>
         /// gvAlbums control.
         /// </summary>
         /// <remarks>
